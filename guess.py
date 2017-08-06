@@ -9,11 +9,11 @@ x = random.randint(1, 100)
 print('Interesting, ' + myName + ', Garoto as they call me is thinking of a number between 1 and 100. Can you guess what the number?')
 
 while guessesTaken < 10:
-    # print('Take a guess / Adivina el numero ') # There are four spaces in front of print.
+    # print('Take a guess / Adivina el numero ') 
     y = int(input("Guess a number? / Adivina el numero. "))
     guessesTaken = guessesTaken + 1
     if y < x:
-        print('Your guess is too low. /  Su respuesta es muy bajita ') # There are eight spaces in front of print.
+        print('Your guess is too low. /  Su respuesta es muy bajita ') 
         print("You have / Tienes " + str(10 - guessesTaken) + " chance left / turnos restantes")
     elif y > x:
         print('Your guess is too high. / Su respuesta es muy alta ')
